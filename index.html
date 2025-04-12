@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Kanika</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffe0ec, #ae00ff);
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ff4d6d;
+      margin-top: 20px;
+      animation: fadeInDown 2s ease;
+    }
+
+    .letter {
+      margin: 30px auto;
+      max-width: 700px;
+      font-size: 1.2rem;
+      padding: 20px;
+      border-radius: 12px;
+      background-color: #fff0f5;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      animation: fadeIn 3s ease-in;
+    }
+
+    img {
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      animation: popIn 2s ease-in-out;
+    }
+
+    .wide {
+      width: 600px; /* Set a fixed width */
+      height: 670px; /* Set a fixed height to match the aspect ratio */
+      max-width: 100%; /* Ensure responsiveness */
+      object-fit: cover; /* Maintain aspect ratio while filling the dimensions */
+    }
+
+    .normal {
+      width: 60vw;
+      max-width: 400px;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes popIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .typing {
+      width: 24ch;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      animation: typing 4s steps(24), blink .5s step-end infinite alternate;
+      font-size: 1.3rem;
+      margin: 20px auto;
+      color: #333;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 24ch }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy Birthday Kanika - From your dear Oreo</h1>
+
+  <div class="typing">Wishing you a day full of joy...</div>
+
+  <img src="image.1.jpeg" class="normal" alt="Kanika 1">
+  <img src="image.2.png" class="normal" alt="Kanika 2">
+  <img src="image.3.png" class="wide" alt="Kanika 3">
+  <img src="image.4.png" class="wide" alt="Kanika 4">
+
+  <div class="letter">
+    Dear Kanika,<br><br>
+    On this beautiful day, I just want to remind you how special you are to me. Your smile, your presence, and your friendship mean the world to me. Though we are far apart, my wishes will always reach you. May your birthday be as wonderful as you are. Always stay happy and keep smiling.<br><br>
+    With love,<br>
+    Oreo
+  </div>
+
+  <audio controls autoplay loop unmuted>
+    <source src="BestVoiceEverByK.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
